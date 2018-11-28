@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        // paths
+        "config": "./app/config",
+        "model": "./app/models",
+        "controller": "./app/http/controllers",
+        "middleware": "./app/http/middlewares",
+        "route": "./app/http/routes",
+        "locale": "./app/locales",
+        "log": "./app/logs",
+        "library": "./app/libraries",
+        "helper": "./app/helpers",
+        "view": "./app/views",
+        // modules
+        "app": "./app/index",
+        "router": "./app/libraries/router",
+        "routes": "./app/http/router.js"
+      }
+    }]
+  ]
+}
